@@ -52,14 +52,7 @@ const Main = () => {
                 <h3 className='font-semibold mt-5 text-xl'>1. What does react work?</h3>
                 <br />
                 <h4>One of the biggest advantages of using React is that you can infuse HTML code with JavaScript.Users can create a representation of a DOM node by declaring the Element function in React. The code below contains a combination of HTML and JavaScript: You may have noticed that the syntax of the HTML code above is similar to XML. That said, instead of using the traditional DOM class, React uses className. JSX tags have a name, children, and attributes. Numeric values and expressions must be written inside curly brackets. The quotation marks in JSX attributes represent strings, similarly to JavaScript.In most cases, React is written using JSX instead of standard JavaScript to simplify components and keep code clean.The following is a breakdown of the HTML tags above:
-
-                    MyCounter represents a variable called count whose value is a numeric expression.
-                    GameScores is an object literal that has two prop-value pairs.
-                    DashboardUnit is the XML block that is rendered on the page.
-                    scores is the scores attribute. It gets its value from the GameScores object literal defined earlier.
-                    A React app usually has a single root DOM node. Rendering an element into the DOM will change the user interface of the page.
-
-                    For instance, the following code displays “Hello World” on the page by rendering the element into a DOM node called root.Whenever a React component returns an element, the Virtual DOM will update the real DOM to match.</h4>
+                    </h4>
                 <br />
                 <br />
                 <h3 className='font-semibold text-xl'>2. What are the different of props and state?</h3>
@@ -95,11 +88,7 @@ const Main = () => {
                 <h4>
                     The useEffect hook is the Swiss Army knife of all the hooks. It’s the solution to many problems: how to fetch data when a component mounts, how to run code when state changes or when a prop changes, how to set up timers or intervals, you name it.
 
-                    Pretty much anything you want to “do” in a React component other than return JSX (any sort of side effect), will go into a useEffect. (and you can have more than one useEffect per component, too)
-
-                    All this power comes with a tradeoff: useEffect can be confusing until you understand how it works.
-
-                    In this post, we’re going to look at lots of useEffect examples so that you understand the mental model and can use it effectively in your own code.</h4>
+                    Pretty much anything you want to “do” in a React component other than return JSX (any sort of side effect), will go into a useEffect. (and you can have more than one useEffect per component, too).</h4>
             </div>
         </div>
     );
