@@ -90,7 +90,16 @@ const Main = () => {
                 </div>
                 <br />
                 <br />
-                
+                <h3 className='font-semibold text-xl'>3. What can do useEffect without data load?</h3>
+                <br />
+                <h4>
+                    The useEffect hook is the Swiss Army knife of all the hooks. It’s the solution to many problems: how to fetch data when a component mounts, how to run code when state changes or when a prop changes, how to set up timers or intervals, you name it.
+
+                    Pretty much anything you want to “do” in a React component other than return JSX (any sort of side effect), will go into a useEffect. (and you can have more than one useEffect per component, too)
+
+                    All this power comes with a tradeoff: useEffect can be confusing until you understand how it works.
+
+                    In this post, we’re going to look at lots of useEffect examples so that you understand the mental model and can use it effectively in your own code.</h4>
             </div>
         </div>
     );
