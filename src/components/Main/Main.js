@@ -64,12 +64,33 @@ const Main = () => {
                 <br />
                 <h3 className='font-semibold text-xl'>2. What are the different of props and state?</h3>
                 <br />
-                <h4>Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components.</h4>
+                <div className='flex justify-around'>
+                    <div>
+                        <h4 className='text-xl font-bold'>
+                            Props:
+                        </h4>
+                        <ul>
+                            <li>1. The Data is passed from one component to another.</li>
+                            <li>2. The Data is passed from one component to another.</li>
+                            <li>3. Props can be used with state and functional components.</li>
+                            <li>4. Props are read-only.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 className='text-xl font-bold'>
+                            State:
+                        </h4>
+                        <ul>
+                            <li>1. The Data is passed within the component only.</li>
+                            <li>2. It is Mutable ( can be modified).</li>
+                            <li>3. State can be used only with the state components/class component (Before 16.0)</li>
+                            <li>4. State is both read and write.</li>
+                        </ul>
+                    </div>
+                </div>
                 <br />
                 <br />
-                <h3 className='font-semibold text-xl'>3. What can do useEffect without data load?</h3>
-                <br />
-                <h4>Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components.</h4>
+                
             </div>
         </div>
     );
