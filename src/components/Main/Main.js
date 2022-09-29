@@ -47,7 +47,7 @@ const Main = () => {
             </div>
 
             <div className="question-container bg-sky-400 rounded-xl shadow-2xl">
-                <h2 className='text-4xl py-2 text-center font-bold'>3 most ques for react</h2>
+                <h2 className='text-4xl py-5 text-center font-bold'>3 most ques for react</h2>
                 <hr />
                 <h3 className='font-semibold mt-5 text-xl'>1. What does react work?</h3>
                 <br />
