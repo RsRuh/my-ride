@@ -51,15 +51,23 @@ const Main = () => {
                 <hr />
                 <h3 className='font-semibold mt-5 text-xl'>1. What does react work?</h3>
                 <br />
-                <h4>React uses a declarative paradigm that makes it easier to reason about your application and aims to be both efficient and flexible. It designs simple views for each state in your application, and React will efficiently update and render just the right component when your data changes.</h4>
+                <h4>One of the biggest advantages of using React is that you can infuse HTML code with JavaScript.Users can create a representation of a DOM node by declaring the Element function in React. The code below contains a combination of HTML and JavaScript: You may have noticed that the syntax of the HTML code above is similar to XML. That said, instead of using the traditional DOM class, React uses className. JSX tags have a name, children, and attributes. Numeric values and expressions must be written inside curly brackets. The quotation marks in JSX attributes represent strings, similarly to JavaScript.In most cases, React is written using JSX instead of standard JavaScript to simplify components and keep code clean.The following is a breakdown of the HTML tags above:
+
+                    MyCounter represents a variable called count whose value is a numeric expression.
+                    GameScores is an object literal that has two prop-value pairs.
+                    DashboardUnit is the XML block that is rendered on the page.
+                    scores is the scores attribute. It gets its value from the GameScores object literal defined earlier.
+                    A React app usually has a single root DOM node. Rendering an element into the DOM will change the user interface of the page.
+
+                    For instance, the following code displays “Hello World” on the page by rendering the element into a DOM node called root.Whenever a React component returns an element, the Virtual DOM will update the real DOM to match.</h4>
                 <br />
                 <br />
-                <h3  className='font-semibold text-xl'>2. What are the different of props and state?</h3>
+                <h3 className='font-semibold text-xl'>2. What are the different of props and state?</h3>
                 <br />
                 <h4>Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components.</h4>
                 <br />
                 <br />
-                <h3  className='font-semibold text-xl'>3. What can do useEffect without data load?</h3>
+                <h3 className='font-semibold text-xl'>3. What can do useEffect without data load?</h3>
                 <br />
                 <h4>Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components.</h4>
             </div>
