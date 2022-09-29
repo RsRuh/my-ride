@@ -1,0 +1,18 @@
+.logo{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+   
+}
+.cardSide{
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 10px;
+}
+.question-container {
+    padding: 20px;
+    width: 80vw;
+    margin: 30px auto; 
+}
+.pageTitle{
+    text-shadow: 5px 2px 3px gray;
+}

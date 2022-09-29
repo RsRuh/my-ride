@@ -1,0 +1,22 @@
+
+.myPic{
+    border-radius: 50%;
+    height: 60px;
+    box-shadow: 2px 2px 4px;
+}
+.myProfile{
+    box-shadow: 1px 1px 5px gray;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 5px 2px 4px;
+}
+.myDetails{
+    box-shadow: 1px 1px 5px gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+.brkBtn{
+    box-shadow: 1px 1px 5px gray;
+    padding: 10px;
+    border-radius: 10px;
+}
